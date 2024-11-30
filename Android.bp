@@ -99,6 +99,7 @@ cc_library_shared {
         "-fno-omit-frame-pointer",
         "-march=corei7",
         "-Werror",
+        "-Wno-missing-field-initializers",
         "-Wno-logical-op-parentheses",
         "-Wno-shift-negative-value",
         "-Wno-unused-parameter",
